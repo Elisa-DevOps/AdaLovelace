@@ -1,0 +1,266 @@
+/*Font Style Rules
+font-family: 'Roboto Slab', serif; 100-900 
+*/
+
+/*Colors
+background-color: rgb(14, 58, 14); Dark Green
+*/
+
+/*UNIVERSAL STYLES*/
+html {                                                  /*add fonts*/
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+
+body {
+    /*padding-top: 92px;
+    margin-right: 0.25rem;*/
+    margin: 0;  /*IMPORTANT must have both margin and padding set to 0 for it to span full width of screen. Every browser has default padding and margin*/
+    padding: 92px 0 0 0;
+}
+
+/*BUSINESS NAME*/
+header { 
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%; /*fully spans navbar at top behind scroll*/
+    margin-bottom: 0%;
+    background-color: white; /*rgb(179, 199, 179);*/
+    top: 0%;
+    /*margin-right: 1rem;*/
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 3px solid black;
+    height: 110px;
+}
+
+header .nameWrapper {  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 10rem;
+    padding-bottom: 0;
+}
+
+header .nameWrapper img { 
+    height: 110px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header .nameWrapper p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header .nameWrapper a { 
+    text-decoration: none;
+    margin-bottom: 0;
+    color: rgb(10, 41, 10);
+}
+
+header #gh { 
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+header #fullname, header #community { 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+}
+
+/*NAVIGATION*/
+.navbanner {  
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    line-height: 1.4;
+    font-size: 1.25rem;
+    width: 43.75rem;
+    height: 100%;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+.navigation p {  
+    width: 100%;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navigation a { 
+    text-decoration: underline;
+    color: black;
+    padding: 0 10%;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*GREENBRIER HILLS Main Pic*/
+#entryPic { 
+    text-align: center;
+    background-color: rgb(14, 58, 14);
+    margin-bottom: 25px;
+}
+
+#entryPic img { 
+    width: 50%;
+}
+
+/*MAIN CONTENT*/
+.mainWrapper h2, .mainWrapper h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*EVENTS*/
+#eventsWrapper { 
+    /*width: 1400px;
+    margin: 25px 5% 0 5%;*/
+}
+
+#eventsWrapper #events {  
+    font-family: 'Roboto Slab', serif;
+    background-color: #0e0e3a;
+    color: white;
+    font-size: 1.25rem;
+}
+
+#calendarWrapper {  
+    text-align: center;
+    background-image: url('../images/CalendarBook\ eric-rothermel-FoKO4DpXamQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    /*background-color: rgb(116, 160, 116);*/
+    margin-bottom: 25px;
+}
+
+/*POOL*/
+#poolWrapper { 
+    text-align: Center;
+    background-image: url('../images/PoolBall\ raphael-biscaldi-7RQf2X6aXXI-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#poolTextBox { 
+    width: 1400px;
+    /*margin: 25px 40px 25px 57px;*/
+    background-color: rgb(240, 248, 255, .25);
+    color: black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 0 1rem 0 1.5rem;
+}
+
+#poolText h2 { 
+    border: 3.5px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 250, 244);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /*margin: 25px 0 0 650px;*/
+}
+
+#poolHead {
+    display: flex;
+    justify-content: center;
+}
+
+#poolText p {
+    text-align: left;
+}
+
+.poolSch { 
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#poolText ul { 
+    list-style-type: none;
+    width: 500px;
+}
+
+/*FOOTER*/
+footer {
+    font-size: .75rem;
+    background-color: rgb(14, 58, 14);
+    color: white;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 667px){ 
+    body {
+        overflow-x: scroll;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header .nameWrapper {
+        width: 25%;
+    }
+
+    .navbanner {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-shrink: 4;
+        width: 100%;
+    }
+
+    .navigation p {
+        width: auto;
+        height: 23%;
+        padding: 0 0.9rem 0 0.9rem;
+    }
+
+    .navigation a {
+        font-size: 85%;
+        width: auto;
+    }
+
+    #calendarWrapper iframe {
+        width: 475px;
+    }
+
+    #eventsWrapper {
+        text-align: center;
+    }
+
+    #poolWrapper {
+        width: auto;
+    }
+
+    #poolTextBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 25% 0 25%;
+    }
+
+    #poolText {
+        width: 98%;
+    }
+}
