@@ -9,7 +9,16 @@ let hide = function() {
     first.style.display = 'none';
 };
 
-view.addEventListener('click', open);
+function toggleNav() {
+    //first.style.display = 'block';
+    if (first.style.display == 'block') {
+        first.style.display = 'none';
+    } else {
+        first.style.display = 'block';
+    }
+};
+
+view.addEventListener('click', toggleNav);
 first.addEventListener('click', hide);
 
 //
