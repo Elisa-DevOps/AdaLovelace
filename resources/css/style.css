@@ -76,6 +76,20 @@ header {
     margin-left: 5px;
 }
 
+#projectsWrapper ul {
+    padding-left: 0;
+}
+
+#projectsWrapper li {
+    list-style-type: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#projectsWrapper li::before {
+    content: "\2192";
+}
+
 #icons {
     display: flex;
     justify-content: space-around;
