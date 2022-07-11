@@ -84,6 +84,7 @@ header {
     list-style-type: none;
     font-size: 1.25rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #projectsWrapper li::before {
