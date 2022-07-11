@@ -10,4 +10,4 @@ let hide = function() {
 };
 
 view.addEventListener('click', open);
-view.addEventListener('click', hide);
+first.addEventListener('click', hide);

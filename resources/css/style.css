@@ -87,6 +87,11 @@ header {
     cursor: pointer;
 }
 
+#firstCompWrapper {
+    cursor: pointer;
+    display: none;
+}
+
 #projectsWrapper li::before {
     content: "\2192";
 }
