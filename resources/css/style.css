@@ -12,6 +12,7 @@ html {                                                  /*add fonts*/
     top: 0;
     left: 0;
     font-family: 'Nunito', sans-serif;
+    padding: 0 8%;
 }
 
 body {
@@ -21,7 +22,30 @@ body {
 
 /*NAVIGATION*/
 
+
 /*MAIN CONTENT*/
+#aboutWrapper {
+    border-color: red;
+    border-style: solid;
+    display: flex;
+    width: 100%;
+}
+
+#aboutMe {
+    border-color: green;
+    border-style: solid;
+    margin-right: 5px;
+    align-content: flex-start;
+}
+
+#aboutWrapper img { 
+    border-color: orange;
+    border-style: solid;
+    border-radius: 15%;
+    width: auto;
+    height: 22rem;
+    margin-left: 5px;
+}
 
 /*FOOTER*/
 footer {
