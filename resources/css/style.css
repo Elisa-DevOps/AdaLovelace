@@ -92,6 +92,15 @@ header {
     display: none;
 }
 
+#engineWrapper {
+    cursor: pointer;
+    display: none;
+}
+
+#engineImg {
+    height: 18rem;
+}
+
 #projectsWrapper li::before {
     content: "\2192";
 }
