@@ -76,14 +76,7 @@ header {
     margin-left: 5px;
 }
 
-#skillsWrapper {
-    border: red;
-    border-style: solid;
-}
-
 #icons {
-    border: orange;
-    border-style: solid;
     display: flex;
     justify-content: space-around;
 }
