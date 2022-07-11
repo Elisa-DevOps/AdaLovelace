@@ -21,7 +21,39 @@ body {
 }
 
 /*NAVIGATION*/
+header {
+    display: flex;
+    width: 100%;
+    border-color: green;
+    border-style: solid;
+}
 
+.navigation {
+    border-color: blue;
+    border-style: solid;
+
+}
+
+.navbanner ul {
+    border-color: red;
+    border-style: solid;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+}
+
+.navbanner li {
+    border-color: orange;
+    border-style: solid;
+    display: inline;
+    width: auto;
+}
+
+.navbanner li a {
+    border-color: yellow;
+    border-style: solid;
+    display: block;
+}
 
 /*MAIN CONTENT*/
 #aboutWrapper {
@@ -29,6 +61,7 @@ body {
     border-style: solid;
     display: flex;
     width: 100%;
+    
 }
 
 #aboutMe {
