@@ -15,6 +15,10 @@ html {                                                  /*add fonts*/
     padding: 0 7%;
 }
 
+title {
+    cursor: pointer;
+}
+
 body {
     margin: 0 200px;  /*IMPORTANT must have both margin and padding set to 0 for it to span full width of screen. Every browser has default padding and margin*/
     padding: 0 0 0 0;

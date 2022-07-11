@@ -41,3 +41,7 @@ let close1 = function() {
 
 view3.addEventListener('click', open3);
 adaBox.addEventListener('click', close1);
+
+//
+let returnMain = document.getElementById('title');
+
