@@ -87,12 +87,7 @@ header {
     cursor: pointer;
 }
 
-#firstCompWrapper {
-    cursor: pointer;
-    display: none;
-}
-
-#engineWrapper {
+#firstCompWrapper, #engineWrapper, #adaWrapper {
     cursor: pointer;
     display: none;
 }
