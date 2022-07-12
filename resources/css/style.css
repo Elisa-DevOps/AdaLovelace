@@ -114,6 +114,18 @@ header {
     height: 3rem;
 }
 
+#contactIconWrapper {
+    display: flex;
+    align-content: center;
+    height: 2.5rem;
+    margin-bottom: 25rem;
+}
+
+#contactIconWrapper Img {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
 /*FOOTER*/
 footer {
     font-size: .85rem;
@@ -122,6 +134,7 @@ footer {
     padding: 0.02rem 0 0.10rem 0.02rem;
     height: auto;
     border-radius: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 /*MEDIA QUERIES*/
